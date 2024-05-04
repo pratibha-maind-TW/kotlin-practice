@@ -1,7 +1,7 @@
 import basicTopics.WhileLoop
 import objects.BasicClass
 import objects.Person
-
+import objects.printNameAndAgeOfPerson as nameAndAge
 fun main() {
 
 //    val tripleQuotedString = TripeQuotedString()
@@ -9,14 +9,18 @@ fun main() {
 //    val whileLoop = WhileLoop()
 //    print(whileLoop.printLetterInString("Hello world"))
 
-//// Objects - creating a object of a class
+//// Objects - creating an object of a class
 //    val classB = BasicClass()
 //    classB.toPrint()
 
-    //Constructor
-    val person1 = Person()
-    person1.printName()
-    val person2 = Person("Rowam")
-    person2.printName()
+//    //Constructor
+//    val person1 = Person()
+//    person1.printName()
+//    val person2 = Person("Rowam")
+//    person2.printName()
+
+    nameAndAge("Rhyle", 34)
+
+
 }
 
