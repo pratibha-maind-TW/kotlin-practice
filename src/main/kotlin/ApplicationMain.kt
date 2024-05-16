@@ -1,3 +1,4 @@
+import basicTopics.ListOperations
 import basicTopics.WhileLoop
 import objects.BasicClass
 import objects.Person
@@ -19,8 +20,13 @@ fun main() {
 //    val person2 = Person("Rowam")
 //    person2.printName()
 
-    nameAndAge("Rhyle", 34)
+//    nameAndAge("Rhyle", 34)
 
+    //List
 
+    val list = ListOperations()
+    list.printList()
+    val newList = list.createList(6)
+    print(newList)
 }
 
