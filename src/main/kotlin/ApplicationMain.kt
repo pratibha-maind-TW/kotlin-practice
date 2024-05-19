@@ -1,4 +1,5 @@
 import basicTopics.ListOperations
+import basicTopics.SetOperations
 import basicTopics.WhileLoop
 import objects.BasicClass
 import objects.Person
@@ -22,11 +23,18 @@ fun main() {
 
 //    nameAndAge("Rhyle", 34)
 
-    //List
+//    //List
+//
+//    val list = ListOperations()
+//    list.printList()
+//    val newList = list.createList(6)
+//    print(newList)
 
-    val list = ListOperations()
-    list.printList()
-    val newList = list.createList(6)
-    print(newList)
+    //set
+    val set = SetOperations()
+    set.createSet(size = 10)
+    set.printSet()
+    print(set.findInSet(element = 22))
+
 }
 
