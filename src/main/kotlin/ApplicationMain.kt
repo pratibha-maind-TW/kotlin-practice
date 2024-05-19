@@ -1,4 +1,5 @@
 import basicTopics.ListOperations
+import basicTopics.MapOperations
 import basicTopics.SetOperations
 import basicTopics.WhileLoop
 import objects.BasicClass
@@ -30,11 +31,22 @@ fun main() {
 //    val newList = list.createList(6)
 //    print(newList)
 
-    //set
-    val set = SetOperations()
-    set.createSet(size = 10)
-    set.printSet()
-    print(set.findInSet(element = 22))
+//    //set
+//    val set = SetOperations()
+//    set.createSet(size = 10)
+//    set.printSet()
+//    print(set.findInSet(element = 22))
 
+    //Map
+
+    val map = MapOperations()
+    map.addToMap(key = "Cat", value = "Meow")
+    map.addToMap(key = "Bird", value = "Chirp")
+    map.addToMap(key = "Dog", value = "Bark")
+
+    map.printMap()
+    map.printMapKeys()
+    map.printMapValues()
+    map.printKeyAndValue()
 }
 
