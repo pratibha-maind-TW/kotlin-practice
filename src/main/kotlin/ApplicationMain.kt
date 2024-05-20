@@ -1,3 +1,4 @@
+import Usability.ExtentionFunctions
 import basicTopics.ListOperations
 import basicTopics.MapOperations
 import basicTopics.SetOperations
@@ -37,16 +38,28 @@ fun main() {
 //    set.printSet()
 //    print(set.findInSet(element = 22))
 
-    //Map
+//    //Map
+//
+//    val map = MapOperations()
+//    map.addToMap(key = "Cat", value = "Meow")
+//    map.addToMap(key = "Bird", value = "Chirp")
+//    map.addToMap(key = "Dog", value = "Bark")
+//
+//    map.printMap()
+//    map.printMapKeys()
+//    map.printMapValues()
+//    map.printKeyAndValue()
 
-    val map = MapOperations()
-    map.addToMap(key = "Cat", value = "Meow")
-    map.addToMap(key = "Bird", value = "Chirp")
-    map.addToMap(key = "Dog", value = "Bark")
+    //Extension function
 
-    map.printMap()
-    map.printMapKeys()
-    map.printMapValues()
-    map.printKeyAndValue()
+    val name = ExtentionFunctions()
+    name.printName()
+
+    println("${name.formString()}")
+
 }
 
+// Creating Extention function for a class
+fun ExtentionFunctions.formString() :String {
+    return "My name is ${this.name}"
+}
