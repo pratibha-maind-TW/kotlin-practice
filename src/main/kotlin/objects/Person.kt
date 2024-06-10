@@ -6,6 +6,11 @@ class Person (val name: String = "Unknown", val age: Int = 18) {
         println(name)
     }
 
+    //overloading function
+    fun printName(name: String){
+        println("Name is $name")
+    }
+
 }
 
 fun printNameAndAgeOfPerson(name: String = "Unknown", age: Int = 18){

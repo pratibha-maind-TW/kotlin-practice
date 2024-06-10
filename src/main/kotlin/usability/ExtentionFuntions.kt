@@ -1,4 +1,4 @@
-package Usability
+package usability
 
 class ExtentionFunctions {
 

@@ -1,0 +1,6 @@
+fileignoreconfig:
+- filename: src/main/kotlin/ApplicationMain.kt
+  checksum: d9b8f8e6e0ee647aef8a896d4137885b57370056c97901f0a57c2851a837bc95
+- filename: src/main/kotlin/basicTopics/MapOperations.kt
+  checksum: 547aca1f8a379eba9b7777661fa05fce202b0847be86b4b9539bbaa25802013a
+version: ""

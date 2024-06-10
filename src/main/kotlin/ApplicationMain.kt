@@ -1,11 +1,6 @@
-import Usability.ExtentionFunctions
-import basicTopics.ListOperations
-import basicTopics.MapOperations
-import basicTopics.SetOperations
-import basicTopics.WhileLoop
-import objects.BasicClass
+import usability.WhenBlock
 import objects.Person
-import objects.printNameAndAgeOfPerson as nameAndAge
+
 fun main() {
 
 //    val tripleQuotedString = TripeQuotedString()
@@ -50,16 +45,26 @@ fun main() {
 //    map.printMapValues()
 //    map.printKeyAndValue()
 
-    //Extension function
+//    //Extension function
+//
+//    val name = ExtentionFunctions()
+//    name.printName()
+//
+//    println("${name.formString()}")
 
-    val name = ExtentionFunctions()
+    //overloading
+    val name = Person()
     name.printName()
+    name.printName("Pratibha")
 
-    println("${name.formString()}")
+    //when
+    val obj = WhenBlock()
+    obj.runWhen(2)
+    obj.runWhen(5)
 
 }
 
-// Creating Extention function for a class
-fun ExtentionFunctions.formString() :String {
-    return "My name is ${this.name}"
-}
+//// Creating Extention function for a class
+//fun ExtentionFunctions.formString() :String {
+//    return "My name is ${this.name}"
+//}
