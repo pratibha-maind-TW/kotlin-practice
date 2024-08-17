@@ -3,4 +3,6 @@ fileignoreconfig:
   checksum: d9b8f8e6e0ee647aef8a896d4137885b57370056c97901f0a57c2851a837bc95
 - filename: src/main/kotlin/basicTopics/MapOperations.kt
   checksum: 547aca1f8a379eba9b7777661fa05fce202b0847be86b4b9539bbaa25802013a
+- filename: src/main/kotlin/usability/Pair.kt
+  checksum: 291294a4b9bc03e811e7223f1c7c35cb2ca8d53a1bd1d7f6ec52bfc360414e95
 version: ""
